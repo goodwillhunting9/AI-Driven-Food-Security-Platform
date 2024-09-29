@@ -1,0 +1,84 @@
+Report and Insights
+
+1. Dataset Overview
+
+The dataset contains Twitter data related to various topics, potentially concerning public health, sustainable development, and social issues. The columns in the dataset include:
+
+a. Timestamp: The exact time when the tweet was posted.
+b. Username and User_ID: Identifying the author of the tweet.
+c. Text: The content of the tweet, which is the primary focus for NLP tasks.
+d. Hashtags, Language, Retweet_Count, Favorite_Count, Reply_Count, and more: Additional metadata describing tweet interactions and the language used.
+
+2. Initial Observations
+
+a. Tweet Interaction: Some tweets have high engagement, with significant retweets, favorites, replies, and quotes. For example, the tweet on "mental health" with hashtags #SriLanka and #JusticeForThariq has 57 retweets and 270 favorites.
+b. Hashtag Usage: Not all tweets use hashtags, but some crucial tweets, especially ones with high interaction, are associated with specific hashtags like #SriLanka and #JusticeForThariq.
+c. Language: The tweets are mostly in English, indicated by the Language column as "en."
+
+3. Sentiment Analysis
+
+Using sentiment analysis, you can measure the positivity or negativity of the tweets related to Sustainable Development Goals (SDGs).
+
+a. Overall Sentiment: By analyzing the text data, we can categorize the tweets into positive, neutral, or negative sentiments. This can reveal public attitudes toward specific SDGs topics such as health, climate change, or social issues.
+b.Sentiment Trends: By grouping sentiment over time (using the Timestamp), you can visualize how public sentiment shifts in response to events related to SDGs.
+
+Insights:
+
+Tweets around certain events (like health crises or justice-related hashtags) tend to be more emotionally charged, either positive or negative.
+Sentiment analysis could reveal that tweets concerning mental health may have a more positive sentiment when linked with health improvements, while justice-related issues tend to attract more negative or critical responses.
+
+4. Topic Modeling Insights
+
+By applying Topic Modeling (LDA), you can discover the key themes or topics that are frequently discussed in these tweets.
+
+Key Insights: Healthcare and Public Health: A significant portion of the tweets discusses public health efforts like Covid-19, dengue prevention, and mental health support.
+
+Commonly associated words in this topic could include "health", "prevention", "inspectors", "mental health", and "covid."
+Environmental and Justice Issues: Tweets discussing justice issues (e.g., #JusticeForThariq) and environmental concerns are also prominent.
+Common words might include "Sri Lanka", "justice", "climate", and "environment."
+
+Topic Modeling Example:
+By applying LDA, you may discover that some major topics are centered around:
+
+Topic 1: Health-related discussions (e.g., Covid-19, public health policies).
+Topic 2: Justice or activism (e.g., campaigns like #JusticeForThariq).
+Topic 3: Environmental concerns or climate actions (e.g., tweets about sustainable development).
+5. N-grams and Hashtag Analysis
+By analyzing n-grams (bigrams or trigrams) and hashtags, we can identify common phrases or campaign names that are frequently used.
+
+Insights from Bigrams:
+
+Popular Phrases: Frequently occurring bigrams include phrases like "mental health", "public health", and "clean energy". 
+These highlight the focus of discussions around healthcare and sustainability.
+Hashtags: The most impactful tweets (those with the most retweets and favorites) tend to include specific hashtags like #JusticeForThariq, #SriLanka, and others. This shows the importance of hashtag usage in promoting public discussions on SDGs.
+
+6. Tweet Engagement
+
+Analyzing tweet interactions, such as retweet counts, favorite counts, and replies, can give insight into which topics or users drive the most engagement.
+
+Key Insights:
+
+a. High-Engagement Tweets: Tweets discussing justice and social issues (#JusticeForThariq) and public health (mental health, Covid-19 prevention) generate the highest engagement in terms of favorites, replies, and retweets.
+
+b. Influential Users: Certain users (e.g., Harsha de Silva) consistently tweet about public issues like health and sustainability, garnering higher engagement.
+
+c. Tweet Engagement Insights:
+Policy discussions and justice campaigns seem to attract more attention than other topics, based on the number of retweets and favorites.
+Engagement trends could indicate the level of public concern and involvement in various SDG-related topics.
+
+7. Public Opinion on SDGs
+Using this data, you can draw conclusions on how the public perceives different SDG-related topics:
+
+a. Health and Well-being: Tweets related to health, such as public health inspections or mental health campaigns, seem to receive a generally positive response.
+
+b. Climate Action and Sustainability: Discussions around clean energy or sustainability have varying levels of engagement and sentiment, possibly indicating a mix of opinions.
+
+c. Justice and Equality: Social justice campaigns attract both high engagement and strong sentiments (both positive and negative), highlighting the public's emotional investment in these topics.
+
+Recommendations:
+
+a. For Policymakers: Increase focus on public engagement campaigns surrounding health and well-being, as this topic resonates positively with the public.
+
+b. For Environmental Advocacy Groups: Leverage the strong emotional engagement around justice-related issues to promote action on climate and sustainability.
+
+c. For Public Health Officials: Engage with the public on social media regarding health initiatives, as discussions around health tend to generate positive and constructive public discourse.
